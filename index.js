@@ -55,7 +55,7 @@ function SystemUsage(){
 
 const Influx = require('influx');
 const influx = new Influx.InfluxDB({
-    host: '172.16.0.1',
+    host: '10.9.0.1',
     database: 'miners_monitor',
     schema: [
         {
